@@ -8,17 +8,20 @@
     body {
       margin: 0;
       background-color:#F7F8FA;
-    
-    
+        margin-left: 40px;
+        margin-right: 40px;
     }
 h1{
-font-size:2.25rem;
+font-size:2rem;
 
 }
 h2{
+font-size:1rem;
+}
+p{
+font-size: 0.75rem;
 
 }
-
 
 /* start of nav css */
     nav {
