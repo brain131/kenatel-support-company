@@ -180,8 +180,17 @@ text-align: start;
 /* end of category section */
 
 /* start of popular section */
+.popular-section{
+position: relative;
 
+}
+.popular-wrapper{
+display: flex;
+justify-content: center;
+align-items: center;
+gap:2vw;
 
+}
 
 
 
