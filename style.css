@@ -125,9 +125,24 @@ color: #4491DF;
 /* end of nav css */
 
 
+/* start of head css */
+.header{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.search>input{
+padding: 1vw;
+width:40vw;
+border-radius: 10px;
+border: none;
+
+}
 
 
-
+/* end of head css*/
 
 
 
