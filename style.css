@@ -146,6 +146,36 @@ border: none;
 
 
 /* end of head css*/
+/* start of category section */
+.category-wrapper{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap:2vw;
+
+}
+
+.category-section{
+position: relative;
+margin-top: 40px;
 
 
+}
+.problems-link a{
+color: black;
+text-decoration: none;
+}
+.category-card{
+background-color: white;
+padding:2rem;
+border-radius: 15px;
+width:300px;
+}
+.content{
+text-align: start;
+
+
+}
+/* end of category section */
 
