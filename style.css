@@ -8,8 +8,19 @@
     body {
       margin: 0;
       background-color:#F7F8FA;
+    
+    
     }
+h1{
+font-size:2.25rem;
 
+}
+h2{
+
+}
+
+
+/* start of nav css */
     nav {
       background-color: #189753;
       color: white;
@@ -73,11 +84,20 @@ color: #4491DF;
     .menu-item:hover .dropdown {
       display: block;
     }
+    /* start of responsive nav design */
 
     @media (max-width: 600px) {
+        .logo{
+            text-align: center;
+
+        }
+
       nav {
         flex-direction: column;
-        align-items: flex-start;
+        align-items:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .menu {
@@ -98,4 +118,16 @@ color: #4491DF;
       .dropdown a {
         padding-left: 2rem;
       }
+/* end of responsive nav design */
+
     }
+
+/* end of nav css */
+
+
+
+
+
+
+
+
