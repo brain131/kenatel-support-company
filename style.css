@@ -193,6 +193,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap:2vw;
+flex-wrap: wrap;
 
 }
 .popular-card{
@@ -201,6 +202,8 @@ background-color: white;
 padding: 2rem;
 
 }
+
+
 
 
 /* end of popular section */
