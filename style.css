@@ -204,6 +204,25 @@ padding: 2rem;
 }
 
 
-
-
 /* end of popular section */
+/* start of footer */
+.footer{
+background-color:#F4F4F4;
+position:fixed;
+width: 100%;
+
+bottom: 0;
+}
+
+
+/* end of footer */
+
+
+
+
+
+
+
+
+
+
