@@ -227,6 +227,10 @@ color: black;
 display: flex;
 flex-wrap: wrap;
 }
+.footer-wrapper a{
+text-decoration: none;
+color: black;
+}
 /* end of footer */
 
 

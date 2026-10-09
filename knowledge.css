@@ -125,5 +125,26 @@ color: #4491DF;
       }
     }
 /* end of responsive nav design */
+/* start of hero section */
+.hero-section{
+ background-image: url(pexels-yankrukov-8867258.jpg); 
+height:35vw;
+background-repeat: no-repeat;
+width: 100%;
+background-size: cover;
+background-position: center;
+}
+.hero-links a{
+text-decoration: none;
+font-size: 3rem;
+color:aliceblue;
+}
+.hero-links{
 
+position: absolute;
+left: 10vw;
+top:20rem;
+}
+
+/* end of hero section */
 
