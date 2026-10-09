@@ -202,19 +202,31 @@ background-color: white;
 padding: 2rem;
 
 }
+.pupular-content{
+line-height:2rem;
 
+
+}
 
 /* end of popular section */
 /* start of footer */
 .footer{
+    margin-top: 10px;
 background-color:#F4F4F4;
-position:fixed;
+padding: 20px;
 width: 100%;
+bottom:0; 
 
-bottom: 0;
 }
+.popular-link a{
+text-decoration: none;
+color: black;
 
-
+}
+.footer-wrapper{
+display: flex;
+flex-wrap: wrap;
+}
 /* end of footer */
 
 
