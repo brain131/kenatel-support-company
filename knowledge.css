@@ -34,7 +34,7 @@ font-size: 0.75rem;
       align-items: center;
       padding: 1rem 2rem;
       flex-wrap: wrap;
-    }
+          }
 
     .logo {
       font-size: 1.5rem;
@@ -136,15 +136,83 @@ background-position: center;
 }
 .hero-links a{
 text-decoration: none;
-font-size: 3rem;
-color:aliceblue;
+font-size: 2rem;
+color:#aec7d2;
 }
-.hero-links{
 
-position: absolute;
+
+
+.hero-links{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: 10vh;
+}
+.hero-wrapper{
+display: flex;
+justify-content: center;
+text-align: center;
+margin-top: ;
+}
+ @media (max-width: 600px) {
+.hero-links{
+display: flex;
+align-items: center;
+justify-content: center;
 left: 10vw;
 top:20rem;
 }
+.hero-links a{
+text-decoration: none;
+font-size: 1rem;
+color:aliceblue;
+}
+
+ }
 
 /* end of hero section */
+/* start of main section */
+.search>input{
+padding: 1vw;
+width:40vw;
+border-radius:5px;
+border:1px solid black;
+
+}
+
+
+
+/* end of main section */
+/* start of all knowledge contet */
+.category-wrapper{
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap:2vw;
+
+}
+
+.category-section{
+position: relative;
+margin-top: 40px;
+
+
+}
+.problems-link a{
+color: black;
+text-decoration: none;
+}
+.category-card{
+background-color: white;
+padding:2rem;
+border-radius: 15px;
+width:300px;
+}
+.content{
+text-align: start;
+
+
+}
+/* end of all knowledge contet */
 
