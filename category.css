@@ -183,32 +183,7 @@ text-align: start;
 }
 /* end of category section */
 
-/* start of popular section */
-.popular-section{
-position: relative;
 
-}
-.popular-wrapper{
-display: flex;
-justify-content: center;
-align-items: center;
-gap:2vw;
-flex-wrap: wrap;
-
-}
-.popular-card{
-width:450px;
-background-color: white;
-padding: 2rem;
-
-}
-.pupular-content{
-line-height:2rem;
-
-
-}
-
-/* end of popular section */
 /* start of footer */
 .footer{
 margin-top: 10px;
