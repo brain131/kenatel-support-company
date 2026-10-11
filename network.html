@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="category.css">
+</head>
+<body>
+    
+<section class="solutions-section">
+
+    <div class="solution-card">
+        <h2>How to Fix a Computer That Cannot Connect to Wi-Fi</h2>
+        <p>My computer cannot connect to the Wi-Fi network. I want to identify and fix the connection problem.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Make sure Wi-Fi is enabled on your computer.</li>
+            <li>Check that Airplane mode is turned off.</li>
+            <li>Confirm that you are selecting the correct Wi-Fi network and entering the correct password.</li>
+            <li>Move closer to the router to improve the wireless signal.</li>
+            <li>Restart your computer and router, waiting for the router to reconnect to the internet.</li>
+            <li>In Windows Settings, open Network & Internet, select Wi-Fi, and try forgetting the network before reconnecting.</li>
+            <li>If the problem continues, run the Windows network troubleshooter and check the wireless adapter driver.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Fix a Network with No Internet Access</h2>
+        <p>My computer is connected to the network, but I cannot access websites. I want to restore internet connectivity.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Check whether other devices connected to the same network can access the internet.</li>
+            <li>Check the router's indicator lights for internet or connection errors.</li>
+            <li>Restart the router and modem if they are separate devices.</li>
+            <li>Restart your computer and reconnect to the network.</li>
+            <li>Open Command Prompt and run <code>ipconfig</code> to check your network configuration.</li>
+            <li>If your computer has an incorrect or missing IP configuration, try <code>ipconfig /release</code> followed by <code>ipconfig /renew</code>.</li>
+            <li>If all devices remain offline, contact your internet service provider to check for an outage or account problem.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Troubleshoot a Router That Is Not Working</h2>
+        <p>My router is not providing a stable network connection. I want to identify the problem and restore connectivity.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Check that the router's power adapter is securely connected.</li>
+            <li>Inspect the power and internet indicator lights for unusual status signals.</li>
+            <li>Check that the internet cable is connected to the correct WAN or internet port.</li>
+            <li>Restart the router and wait a few minutes for it to reconnect.</li>
+            <li>Test the connection using another device.</li>
+            <li>If you can access the router's administration page, check its connection status and configuration.</li>
+            <li>If the router remains offline, contact your internet service provider or the router manufacturer before considering a factory reset.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Fix a Slow Network Connection</h2>
+        <p>My internet connection is very slow when browsing or downloading files. I want to identify what is affecting network speed.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Run an internet speed test using a reputable speed-testing website.</li>
+            <li>Pause large downloads, streaming, or other activities that use significant bandwidth.</li>
+            <li>Restart your router and computer.</li>
+            <li>Move closer to the Wi-Fi router or use an Ethernet cable for testing.</li>
+            <li>Check whether other devices are using most of the available bandwidth.</li>
+            <li>Compare the speed results with the service plan provided by your internet service provider.</li>
+            <li>If the connection remains slow, contact your provider to investigate network congestion or line problems.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Fix a DNS Resolution Problem</h2>
+        <p>I cannot access websites by their domain names, even though my internet connection appears to be working. I want to troubleshoot DNS settings.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Check whether the problem affects several websites or only one website.</li>
+            <li>Open Command Prompt and run <code>ipconfig /all</code> to inspect your network adapter's DNS configuration.</li>
+            <li>Try running <code>nslookup example.com</code> to check whether a DNS server can resolve a domain name.</li>
+            <li>Open Command Prompt as an administrator and run <code>ipconfig /flushdns</code> to clear the local DNS cache.</li>
+            <li>Disconnect and reconnect to the network.</li>
+            <li>If DNS problems continue, check your router's DNS settings or ask your network administrator about using a trusted DNS server.</li>
+            <li>Test the connection again by opening a website in your browser.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Fix an Ethernet Connection That Is Not Working</h2>
+        <p>My computer cannot connect to the network using an Ethernet cable. I want to check the cable, port, and network settings.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Make sure the Ethernet cable is securely connected to the computer and router or network switch.</li>
+            <li>Check for link indicator lights on the Ethernet port, if available.</li>
+            <li>Try another known-working Ethernet cable.</li>
+            <li>Connect the cable to another available router or switch port, if appropriate.</li>
+            <li>Open Windows Settings and check that the Ethernet adapter is enabled.</li>
+            <li>Open Command Prompt and run <code>ipconfig</code> to check whether the adapter has an IP address.</li>
+            <li>If the connection still fails, run the network troubleshooter and check the Ethernet adapter driver or contact your network administrator.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Troubleshoot an IP Address Conflict</h2>
+        <p>My computer displays a network error that may be caused by another device using the same IP address. I want to restore network connectivity.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Restart the affected computer and check whether the error disappears.</li>
+            <li>Open Command Prompt and run <code>ipconfig</code> to view the computer's current IP address.</li>
+            <li>If the network uses DHCP, open Command Prompt as an administrator and run <code>ipconfig /release</code>.</li>
+            <li>Run <code>ipconfig /renew</code> to request a new IP address from the DHCP server.</li>
+            <li>Run <code>ipconfig</code> again to confirm the updated address.</li>
+            <li>If the conflict continues, ask the network administrator to check DHCP reservations and manually assigned IP addresses.</li>
+            <li>For a manually configured address, use only an approved, unused IP address that matches the network's addressing plan.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Fix a Computer That Cannot Access Shared Folders</h2>
+        <p>I cannot open shared folders on another computer on my network. I want to check network discovery and sharing permissions.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Confirm that both computers are connected to the same network or can communicate through the network.</li>
+            <li>Make sure the computer hosting the shared folder is powered on and connected.</li>
+            <li>On a trusted private network, open Windows Settings and check the network discovery and file-sharing settings.</li>
+            <li>On the computer hosting the folder, check that the folder is shared with the intended users.</li>
+            <li>Review both sharing permissions and the folder's security permissions.</li>
+            <li>In File Explorer, try opening the shared folder using its network path, such as <code>\\ComputerName\ShareName</code>.</li>
+            <li>If access still fails, check the Windows firewall's file-sharing rules and confirm that the correct account credentials are being used.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Improve a Weak Wi-Fi Signal</h2>
+        <p>My Wi-Fi signal is weak in some areas of my home or office. I want to improve coverage and maintain a stable connection.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Place the router in a central, elevated location with open space around it.</li>
+            <li>Keep the router away from thick walls, metal objects, and sources of interference.</li>
+            <li>Move closer to the router and check whether the signal improves.</li>
+            <li>If your router supports both 2.4 GHz and 5 GHz, test which band provides the better connection in your location.</li>
+            <li>Restart the router and check for firmware updates from the manufacturer.</li>
+            <li>For larger spaces, consider a properly configured access point or mesh Wi-Fi system.</li>
+            <li>Test the signal in different areas to confirm whether coverage has improved.</li>
+        </ol>
+    </div>
+
+    <div class="solution-card">
+        <h2>How to Fix a Network Connection That Keeps Disconnecting</h2>
+        <p>My computer frequently disconnects from the network. I want to identify the cause and maintain a reliable connection.</p>
+
+        <h3>Solution Steps</h3>
+        <ol>
+            <li>Check whether other devices on the same network also disconnect.</li>
+            <li>Restart the computer and router.</li>
+            <li>If using Wi-Fi, move closer to the router and check for signal interference.</li>
+            <li>If using Ethernet, inspect the cable and test another working cable or port.</li>
+            <li>On Windows, open Device Manager and check whether the network adapter has a warning symbol.</li>
+            <li>Update the network adapter driver using Windows Update or the device manufacturer's official website.</li>
+            <li>If the issue continues, record when the disconnections occur and contact your internet service provider or network administrator.</li>
+        </ol>
+    </div>
+
+</section>
+
+
+</body>
+</html>
