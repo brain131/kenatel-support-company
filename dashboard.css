@@ -3,10 +3,12 @@
             margin:2vw;
             display:flex;
             flex-direction: row;
-            gap: 3rem;         
+            gap: 3rem; 
+             background-color:#F7F8FA;
+        
         }
         aside{
-            background-color: black;
+            background-color:#033e1f;
             color: beige;
             padding: 1rem;
             height: 100vh;
@@ -14,6 +16,11 @@
         }
         ul{
             list-style: none;
+           
+        }
+        ul a{
+            text-decoration: none;
+            color: white;
         }
         aside ul li{
             padding: 0.5rem 0;
@@ -25,4 +32,167 @@
             color: chocolate;
             cursor: pointer;
         }
-  
+        
+
+        
+        .dashboard {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /*start of Welcome section */
+        .welcome {
+            margin-bottom: 25px;
+        }
+
+        .welcome h1 {
+            margin-bottom: 10px;
+        }
+
+        .welcome p {
+            color: #666;
+        }
+
+/* end of welcome section */
+
+
+        /*start of Search bar */
+        .search-bar {
+            margin-bottom: 25px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #535353;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        /* end of search bar */
+
+/*start Quick action cards */
+        .quick-actions {
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+
+        .action-card {
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+           
+        }
+
+        .action-card h3 {
+            margin-bottom: 10px;
+            color: #189753;
+            
+        }
+
+        .action-card p {
+            color: #2e2e2e;
+            margin-bottom: 15px;
+        }
+
+        .action-card a {
+            color: #2e2e2e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+/* end of quick links */
+
+        /* start of Summary cards */
+        .summary {
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .summary-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+          
+        }
+
+        .summary-card p {
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .summary-card h2 {
+            color: #189753;
+        }
+/* end of summary cards */
+
+
+        /* start of Recent requests */
+        .requests {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #ddd;
+            overflow-x: auto;
+        }
+
+        .requests h2 {
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 550px;
+        }
+
+        th, td {
+            padding: 14px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+
+        th {
+            background: #f4f6f9;
+        }
+
+        .status {
+            color: #189753;
+            font-weight: bold;
+        }
+/* end of recent requests */
+
+        /*start of Responsive design */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            .quick-actions {
+                grid-template-columns: 1fr;
+            }
+
+            .summary {
+                grid-template-columns: 1fr 1fr;
+            }
+
+        
+        }
+
+        @media (max-width: 400px) {
+            .summary {
+                grid-template-columns: 1fr;
+            }
+        }
+           /*end of Responsive design */
+ .down{
+
+    position: absolute;
+    bottom: 0;
+ }
+
+        

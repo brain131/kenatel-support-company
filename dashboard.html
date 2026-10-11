@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KenaTel dashboard</title>
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
 </head>
 <body>
     
@@ -18,16 +20,181 @@
 </head>
 <body>
     <aside>
-        <h2>KenaTel</h2>
+        <div>
+              <h2>KenaTel</h2>
         <ul>
-            <li>Dashboard</li>
-            <li>Profile</li>
-            <li>Settings</li>
-            <li>Logout</li>
+            <a href="dashboard.html">Dashboard</a>
+             <a href="">Submit</a>           
+           
         </ul>
+        </div>
+       <div class="down">
+        <ul>
+            <div>
+            <a href="contact.html">Contact Support</a>
+            </div>
+            <div>
+                <a href="login.html">Log in</a> 
+            </div>
+            <a href="index.html">Home</a>
+            </div>
+          
+            
+        </ul>
+
+       </div>
+
+
     </aside>
     <main>
-        <h1>Main content section</h1>
+     
+        
+
+
+  
+</head>
+
+<body>
+
+    <main class="dashboard">
+
+        <!-- Welcome section -->
+        <section class="welcome">
+            <h1>Welcome back!</h1>
+            <p>What IT problem can we help you solve today?</p>
+        </section>
+
+        <!-- Search bar -->
+        <section class="search-bar">
+            <input type="search"
+                   placeholder="Search for IT problems or solutions...">
+        </section>
+
+        <!--Start Quick actions section -->
+        <section class="quick-actions">
+
+            <div class="action-card">
+                <i style="color:#084a27;" class="fa-solid fa-book"></i>
+                <h3>Submit a Request</h3>
+                <p>Report a new IT problem to the support team.</p>
+                <a href="contact.html">Get Help</a>
+            </div>
+
+            <div class="action-card">
+                <i style="color: #189753;" class="fa-solid fa-lightbulb"></i>
+                <h3>Knowledge Hub</h3>
+                <p>Find solutions to common IT problems.</p>
+                <a href="Knowledge.html">Find Solutions</a>
+            </div>
+
+            <div class="action-card">
+                <i style="color: #189753;" class="fa-solid fa-headset"></i>
+                <h3>Contact Support</h3>
+                <p>Get assistance from the IT support team.</p>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+        </section>
+      <!--End Quick actions section -->
+
+        <!-- Support request summary -->
+        <section class="summary">
+
+            <div class="summary-card">
+                <p>Total Requests</p>
+                <h2>6</h2>
+            </div>
+
+            <div class="summary-card">
+                <p>In Progress</p>
+                <h2>2</h2>
+            </div>
+
+            <div class="summary-card">
+                <p>Resolved</p>
+                <h2>3</h2>
+            </div>
+
+            <div class="summary-card">
+                <p>Open Requests</p>
+                <h2>1</h2>
+            </div>
+
+        </section>
+
+        <!-- Recent support requests -->
+        <section class="requests">
+
+            <h2>Recent Support Requests</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Ticket ID</th>
+                        <th>Problem</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT-001</td>
+                        <td>Internet connection problem</td>
+                        <td style="color: rgb(10, 110, 192);" class="status">In Progress</td>
+                    </tr>
+
+                    <tr>
+                        <td>IT-002</td>
+                        <td>Printer not responding</td>
+                        <td class="status">Resolved</td>
+                    </tr>
+
+                    <tr>
+                        <td>IT-003</td>
+                        <td>Cannot access work account</td>
+                        <td style="color: rgb(255, 101, 5);" class="status">Open</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
     
 </body>
