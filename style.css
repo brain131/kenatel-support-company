@@ -139,6 +139,11 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
+background-image: url(support.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height:500px;
 }
 .search>input{
 padding: 1vw;
@@ -147,7 +152,19 @@ border-radius: 10px;
 border: none;
 
 }
+.button{
+background-color: #189753;
+  margin-top: 4vh;
+  display: inline;
+  padding: 10px;
+  border-radius: 20px;
+}
+.button a{
+font-size: 1.5rem;
+text-decoration: none;
+color: #fcfdfd;
 
+}
 
 /* end of head css*/
 /* start of category section */
