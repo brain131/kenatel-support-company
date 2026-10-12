@@ -45,11 +45,54 @@
       <div>
          <a href="login.html">Log in</a>
       </div>
-    
+     <div>
+         <a href="submit.html">Submit</a>
+      </div>
     </div>
   </nav>
 <!-- end of nav bar --> 
+<section class="request-section">
 
+    <div class="request-container">
+
+        <h1>Submit a Support Request</h1>
+
+        <p>
+            Having an IT problem? Fill in the form below
+            and provide details so the IT team can assist you.
+        </p>
+
+        <form action="#" method="post">
+
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Work Email</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your work email" required>
+
+           
+
+            <label for="title">Problem Title</label>
+            <input type="text" id="title" name="title"
+                   placeholder="e.g. My computer is not starting" required>
+
+            <label for="description">Describe Your Problem</label>
+            <textarea id="description" name="description"
+                      rows="5"
+                      placeholder="Explain the problem you are experiencing..."
+                      required></textarea>
+
+            <button type="submit">Submit Request</button>
+
+        </form>
+
+        <a href="index.html">Back to Home</a>
+
+    </div>
+
+</section>
 
 
 </body>

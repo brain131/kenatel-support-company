@@ -126,3 +126,78 @@ color: #4491DF;
     }
 
 /* end of nav css */
+
+
+
+/* start of submitt form */
+
+.request-section {
+    padding: 40px 20px;
+}
+
+.request-container {
+    max-width: 650px;
+    margin: auto;
+    padding: 30px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.request-container h1 {
+    color: #189753;
+    margin-bottom: 15px;
+}
+
+.request-container p {
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.request-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.request-container input,
+.request-container select,
+.request-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.request-container button {
+    width: 100%;
+    padding: 13px;
+    background-color: #189753;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.request-container a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #189753;
+    text-decoration: none;
+}
+
+.request-container a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .request-container {
+        padding: 20px;
+    }
+
+    .request-container h1 {
+        font-size: 24px;
+    }
+}
+/* end of submit */
