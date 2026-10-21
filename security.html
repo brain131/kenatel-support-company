@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KenaTel Support Center</title>
     <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- start of nav bar -->
@@ -75,10 +76,17 @@
         <div>
             <h1>Malware</h1>
         </div>
-     <div class="search">
-        <input type="text" placeholder="Filter Knowledge Hub content">
+   
+<form action="Knowledge.html" method="get" class="search">
 
-    </div>
+<label for="search" class="visually-hidden">Search IT problems</label>
+
+<input type="search" id="search" name="q" placeholder="Search IT problems...">
+
+<button type="submit">Search</button>
+
+</form>
+
 
     </div>
 
@@ -279,23 +287,23 @@
     <footer class="footer-card">
 
         <div>
-            <h1>KenaTel</h1>
+          <div class="footer-logo">KenaTel</div>.
         <div class="footer-wrapper">
             
             <div>
-                <a href="">Privacy |</a>
+                <a href="contact.html">Contact us |</a>
             </div>
              <div>
-               <a href="">Documentation |</a> 
+               <a href="article.html">Article |</a> 
             </div>
              <div>
-              <a href=""> Home |</a> 
+              <a href="index.html"> Home |</a> 
             </div>
              <div>
-                <a href="">Knowledge Hub |</a>
+                <a href="Knowledge.html">Knowledge Hub |</a>
             </div>
             <div>
-                <a href="">Sign in</a>
+                <a href="login.html">Log in</a>
 
             </div>
 
@@ -313,6 +321,7 @@
 
 
 <!-- end of footer -->
+
 
 
 

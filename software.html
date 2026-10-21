@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KenaTel Support Center</title>
     <link rel="stylesheet" href="category.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- start of nav bar -->
@@ -19,7 +20,7 @@
         <a href="Knowledge.html">Knowledge hub</a>
       </div>
       <div class="menu-item">
-        <a href="#">Article</a>
+        <a href="article.html">Article</a>
       </div>
       <div class="menu-item">
         <a href="#">Category ▾</a>
@@ -36,7 +37,7 @@
         <a href="#"></a>
       </div>
       <div class="menu-item">
-        <a href="Login.html">Log in</a>
+        <a href="login.html">Log in</a>
       </div>
       <div>
          <a href="submit.html">Submit</a>
@@ -53,10 +54,17 @@
         <h2>What do you need help with today?</h2>
 
     </div>
-    <div class="search">
-        <input type="text" placeholder="Search...">
+    
+<form action="Knowledge.html" method="get" class="search">
 
-    </div>
+<label for="search" class="visually-hidden">Search IT problems</label>
+
+<input type="search" id="search" name="q" placeholder="Search IT problems...">
+
+<button type="submit">Search</button>
+
+</form>
+
 
 </Section>
 
@@ -231,14 +239,14 @@
     <footer class="footer-card">
 
         <div>
-            <h1>KenaTel</h1>
+          <div class="footer-logo">KenaTel</div>.
         <div class="footer-wrapper">
             
             <div>
-                <a href="">Privacy |</a>
+                <a href="contact.html">Contact us |</a>
             </div>
              <div>
-               <a href="">Documentation |</a> 
+               <a href="article.html">Article |</a> 
             </div>
              <div>
               <a href="index.html"> Home |</a> 
@@ -265,6 +273,7 @@
 
 
 <!-- end of footer -->
+
 
 </body>
 </html>

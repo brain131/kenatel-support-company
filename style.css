@@ -139,17 +139,32 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 text-align: center;
-background-image: url(support.jpg);
+background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(support-agent.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 height:500px;
+
+color: white;
 }
 .search>input{
 padding: 1vw;
 width:40vw;
 border-radius: 10px;
 border: none;
+
+}
+.visually-hidden {
+
+position: absolute;
+
+width: 1px;
+
+height: 1px;
+
+overflow: hidden;
+
+clip: rect(0 0 0 0);
 
 }
 .button{
@@ -227,6 +242,12 @@ line-height:2rem;
 
 /* end of popular section */
 /* start of footer */
+.footer-logo{
+font-size:2rem;
+
+
+}
+
 .footer{
 margin-top: 10px;
 background-color:#F4F4F4;

@@ -56,16 +56,23 @@
 <!-- start of header and search input-->
 
 <Section class="header">
-    <div style="color:rgb(3, 100, 110);">
+    <div style="color:rgb(255, 255, 255);">
 
         <h1>KenaTel Support</h1>
         <h2>What do you need help with today?</h2>
 
     </div>
-    <div class="search">
-        <input type="text" placeholder="Search...">
+   
+<form action="Knowledge.html" method="get" class="search">
 
-    </div>
+<label for="search" class="visually-hidden">Search IT problems</label>
+
+<input type="search" id="search" name="q" placeholder="Search IT problems...">
+
+<button type="submit">Search</button>
+
+</form>
+
     <div class="button">
         <a href="submit.html">Submit a ticket</a>
 
@@ -87,11 +94,11 @@
 
             </div>
             <div class="content">
-                <h3>Hardwares</h3>
-                <p>Networks</p>
+                <h3>Hardware</h3>
+                
             </div>
             <div class="problems-link">
-                <a href="hardware.html">View problems></a>
+                <a href="hardware.html">Read solution></a>
 
             </div>
 
@@ -112,7 +119,7 @@
                
             </div>
             <div class="problems-link">
-                <a href="network.html">View problems></a>
+                <a href="network.html">Read solution></a>
 
             </div>
 
@@ -127,11 +134,11 @@
                     <i style="color:#189753;" class="fa-brands fa-windows"></i>
             </div>
             <div class="content">
-                <h3>Softwares</h3>
+                <h3>Software</h3>
               
             </div>
             <div class="problems-link">
-                <a href="software.html">View problems></a>
+                <a href="software.html">Read solution></a>
 
             </div>
 
@@ -149,7 +156,7 @@
                 <h3>Security</h3>
             </div>
             <div class="problems-link">
-                <a href="security.html">View problems></a>
+                <a href="security.html">Read solution></a>
 
             </div>
 
@@ -178,10 +185,10 @@
             </div>
             <div class="pupular-content">
                 <p>No internet connection</p>
-                <p1>Computer & Hardware</p1>
+                <p1>Network error</p1>
             </div>
             <div class="popular-link">
-                <a href="network.html">View problems></a>
+                <a href="network.html">Read solution></a>
 
             </div>
 
@@ -200,7 +207,7 @@
                 <p1>Application keeps crashing</p1>
             </div>
             <div class="popular-link">
-                <a href="software.html">View problems></a>
+                <a href="software.html">Read solution></a>
 
             </div>
 
@@ -219,7 +226,7 @@
                 <p1>My password keeps getting rejected</p1>
             </div>
             <div class="popular-link">
-                <a href="#">View problems></a>
+                <a href="#">Read solution></a>
 
             </div>
 
@@ -250,7 +257,7 @@
     <footer class="footer-card">
 
         <div>
-            <h1>KenaTel</h1>
+          <div class="footer-logo">KenaTel</div>.
         <div class="footer-wrapper">
             
             <div>
@@ -266,7 +273,7 @@
                 <a href="Knowledge.html">Knowledge Hub |</a>
             </div>
             <div>
-                <a href="login.css">Log in</a>
+                <a href="login.html">Log in</a>
 
             </div>
 
