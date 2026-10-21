@@ -142,7 +142,24 @@ color: #4491DF;
       font-size:1rem;
     }
 /* end of responsive nav design */
+h1{
+font-size:2.5rem;
 
+}
+h2{
+font-size:1.5rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+p{
+font-size:1rem;
+
+}
+p1{
+font-size: 1.5rem;
+
+}
     }
 
 /* end of nav css */
