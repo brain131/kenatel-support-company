@@ -12,18 +12,18 @@
         margin-right: 2vw;
     }
 h1{
-font-size:2rem;
+font-size:3rem;
 
 }
 h2{
-font-size:1rem;
+font-size:2rem;
 }
 p{
-font-size:1rem;
+font-size:1.5rem;
 
 }
 p1{
-font-size: 0.75rem;
+font-size: 1rem;
 
 }
 
@@ -39,7 +39,7 @@ font-size: 0.75rem;
     }
 
     .logo {
-      font-size: 1.5rem;
+      font-size:2rem;
       font-weight: bold;
     }
 
@@ -55,6 +55,7 @@ font-size: 0.75rem;
       font-weight: 500;
       padding: 0.5rem;
       display: inline-block;
+      font-size:1.3rem;
     }
 
     .menu a:hover {
