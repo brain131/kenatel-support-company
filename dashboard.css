@@ -1,5 +1,26 @@
 
-        body{
+       
+       
+    * {
+      box-sizing: border-box;
+    }
+
+
+h1{
+font-size:3rem;
+
+}
+h2{
+font-size:2rem;
+}
+p{
+font-size:1.5rem;
+
+}
+p1{
+font-size: 1rem;
+
+}body{
             margin:2vw;
             display:flex;
             flex-direction: row;
@@ -21,6 +42,7 @@
         ul a{
             text-decoration: none;
             color: white;
+            font-size: 1.5rem;
         }
         aside ul li{
             padding: 0.5rem 0;
@@ -29,7 +51,7 @@
             margin-bottom: 1rem;
         }
         aside ul li:hover{
-            color: chocolate;
+            color:#189753;
             cursor: pointer;
         }
         
@@ -148,6 +170,7 @@
             width: 100%;
             border-collapse: collapse;
             min-width: 550px;
+            font-size: 1.5rem;
         }
 
         th, td {
@@ -157,7 +180,7 @@
         }
 
         th {
-            background: #f4f6f9;
+            background: #fdfdfd;
         }
 
         .status {
