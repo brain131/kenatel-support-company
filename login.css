@@ -21,6 +21,7 @@
 .login-form form > label {
     display: block;
     margin-bottom: 8px;
+    font-size: 1.5rem;
 }
 
 .login-form input[type="email"],
@@ -30,6 +31,7 @@
     margin-bottom: 18px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1.5rem;
 }
 
 .remember {
